@@ -4,7 +4,9 @@ A home made neural network made with numpy and math
 
 
 Running The App On Command Line In this directory
-	-Create a python virtual environment 
-		python3 -m venv .venv
+	-Create a python virtual environment (just once)
+		Python3 -m venv env
 	-Activate virtual environment
-		. .venv/bin/activates
+		source env/bin/activate 
+	-Deactivate virtual environment with
+		deactivate
